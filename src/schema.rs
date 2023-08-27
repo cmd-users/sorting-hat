@@ -18,6 +18,14 @@ diesel::table! {
 }
 
 diesel::table! {
+    example_table (id) {
+        id -> Int4,
+        name -> Varchar,
+        age -> Int4,
+    }
+}
+
+diesel::table! {
     members (id) {
         id -> Int4,
         student_id -> Int4,
@@ -70,6 +78,7 @@ diesel::joinable!(members -> students (student_id));
 diesel::allow_tables_to_appear_in_same_query!(
     answers,
     classes,
+    example_table,
     members,
     questions,
     results,
