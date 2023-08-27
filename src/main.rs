@@ -10,6 +10,7 @@ use std::env;
 
 mod schema; pub use schema::*;
 mod models; use models::*;
+mod routes; pub use routes::*;
 
 fn establish_connection() -> PgConnection {
     dotenv().ok();
