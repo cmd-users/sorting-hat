@@ -64,5 +64,9 @@ fn index() -> RawHtml<String> {
 
 #[launch]
 fn rocket() -> _ {
-    rocket::build().mount("/", routes![index, add])
+    rocket::build().mount("/", routes![
+        index,
+        add,
+        routes::quiz_next
+    ])
 }
