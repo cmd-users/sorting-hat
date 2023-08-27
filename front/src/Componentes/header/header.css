@@ -1,0 +1,55 @@
+:root {
+    --cor-cabecalho: white; /* Defina a cor desejada aqui */
+    --colorBTNheader: #CA166E;
+    --colorBorderHeader: #CA166E; 
+  
+  }
+  
+  .component-header {
+    background-color: var(--cor-cabecalho);
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left; /* Você provavelmente quis dizer flex-start */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border-bottom: 2px solid var(--colorBorderHeader); /* Define a borda na parte inferior */
+    padding-bottom: 10px; 
+  }
+
+  .btn-1{
+    background-color: transparent; /* Torna o fundo transparente */
+    border: none; /* Remove a borda */
+    color: var(--colorBTNheader); /* Define a cor do texto */
+    margin-left: 7px;
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+.btn-left{
+  margin-left: 14px;
+}
+  
+  .btn-log-out{
+    background-color: transparent; /* Torna o fundo transparente */
+    border: none; /* Remove a borda */
+    color: var(--colorBTNheader); /* Define a cor do texto */
+    margin-left: 200px;
+    margin-right: 14px;
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+.logo{
+  margin-left: 14px;
+  margin-right: auto;
+}
