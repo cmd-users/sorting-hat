@@ -42,7 +42,6 @@ pub fn quiz_next() -> Json<QuizNextResponse> {
         as usize
     ;
 
-    // Json(QuizNextResponse { current: 1, question: "oi?".to_owned(), question_count: 10 })
     Json(QuizNextResponse {
         current: user_answer_count,
         question,
