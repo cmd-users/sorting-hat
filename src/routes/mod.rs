@@ -1,5 +1,7 @@
-use diesel::query_dsl::RunQueryDsl;
-use diesel::QueryDsl;
+use diesel::{
+    query_dsl::RunQueryDsl,
+    QueryDsl,
+};
 use rocket::serde::json::Json;
 use serde::Serialize;
 
