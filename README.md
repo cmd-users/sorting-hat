@@ -1,27 +1,27 @@
-# Sorting Hat
+# Sorting Hat 🎩
 
 <img align="right" width="256"  src="https://i.imgur.com/SGa9kKy.png" alt="sorting-hat logo"/>
 
-Sorting Hat is a tool that empowers students to find their best suited learning methodology, backed up by extensive research and well known psycology concepts.
+🔰 Sorting Hat is a tool that empowers students to find their best suited learning methodology, backed up by extensive research and well known psycology concepts.
 
-It uses the powers of predictive language models to interpret a series of open-ended answers so that all the relevant information is extracted to be used with traditional learning methodoly identification approaches.
+🧑‍💻 It uses the powers of predictive language models to interpret a series of open-ended answers so that all the relevant information is extracted to be used with traditional learning methodoly identification approaches.
 
-Sorting Hat can also be used by institutions to identify the profiles of each freshman student and organize them into classes that share a similar learning methodology to optimize teacher eficiency by using the best suited approach for that class.
+📊 Sorting Hat can also be used by institutions to identify the profiles of each freshman student and organize them into classes that share a similar learning methodology to optimize teacher eficiency by using the best suited approach for that class.
 
 ## Usage
 
-* ### No sign in student:
+* ### 🤓 No sign in student:
 To take the test once and immediately see your results:
 1. Take the quiz.
 2. See the result.
 
-* ### Student with result history enabled:
+* ### 🧑‍🎓 Student with result history enabled:
 To be able to keep track of your own history of results through time and compare results:
 1. Sign in as a student to the Sorting Hat user database.
 2. Take the quiz.
 3. See the result.
 
-* ### Teacher, Institution or Organization:
+* ### 👥 Teacher, Institution or Organization:
 To be able to apply the quiz for multiple members of your hierarchy and have access to their results:
 1. Sign in as a teacher to the Sorting Hat user database.
 2. Share the invitation token with participants.
