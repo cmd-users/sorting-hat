@@ -1,6 +1,6 @@
 @echo off
 
-docker-compose up -d postgres
+docker-compose up --build -d postgres
 set DATABASE_URL=postgres://rocket:rocket@localhost:5432/rocket
 diesel migration run
-cargo run
+cargo watch -q -c -w src/ -x run
