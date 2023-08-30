@@ -8,6 +8,22 @@
 
 📊 Sorting Hat can also be used by institutions to identify the profiles of each freshman student and organize them into classes that share a similar learning methodology to optimize teacher eficiency by using the best suited approach for that class.
 
+<br>
+
+# Table Of Contents
+  * [Usage](#Usage)
+    * [No sign in student](#No-sign-in-student)
+    * [Student with result history enabled](#Student-with-result-history-enabled)
+    * [Teacher, Institution or Organization](#Teacher,-Institution-or-Organization)
+  * [Hosting](#Hosting)
+    * [1. Setup](#1.-Setup)
+    * [2. Environment](#2.-Environment)
+    * [3. Run](#3.-Run)
+  * [License](#License)
+
+
+<br>
+
 ## Usage
 
 * ### 🤓 No sign in student:
@@ -27,25 +43,56 @@ To be able to apply the quiz for multiple members of your hierarchy and have acc
 2. Share the invitation token with participants.
 3. See the results.
 
-## Hosting
-To be able to host a Sorting Hat server you will need [Rust](https://www.rust-lang.org/), the [Diesel CLI](https://diesel.rs/guides/getting-started), [NPM](https://www.npmjs.com/), [Docker](https://www.docker.com/) with [docker-compose](https://docs.docker.com/compose/), and access to a [PostgreSQL database](https://www.postgresql.org/).
+<br>
 
-Sorting Hat requires the Nighly version of rust, so you need to install it if not present:
+## Hosting
+To be able to host a Sorting Hat server you will need:
+* [Rust](https://www.rust-lang.org/),
+* [Diesel CLI](https://diesel.rs/guides/getting-started),
+* [NPM](https://www.npmjs.com/),
+* [Docker](https://www.docker.com/) with [docker-compose](https://docs.docker.com/compose/),
+* and access to a [PostgreSQL database](https://www.postgresql.org/).
+
+<br><h3 align="center">1. Setup</h3>
+
+1. Sorting Hat requires the Nighly version of rust, so you need to install it if not present:
 ```command
 rustup toolchain install nightly
 ```
 
-In the project directory you'll need to run 
+2. In the project directory you'll need to run 
 ```command
 rustup override set nightly
 ```
 
-To install `diesel_cli` with postgres support:
+3. To install `diesel_cli` with postgres support:
 ```command
 cargo install diesel_cli --no-default-features --features postgres
 ```
 
-With everything set-up, run [`run.sh`](run.sh) (On Linux or MacOS) or [`run.bat`](run.bat) (On Windows) to start the server.
+<br><h3 align="center">2. Environment</h3>
+
+1. To be able to run Sorting Hat on your machine, Docker must be enabled or active.  
+
+* **On windows:** this can be done by [ensuring that the Docker icon is present at your system tray](https://docs.docker.com/desktop/install/windows-install/#start-docker-desktop).
+
+* **On Unix:** you can [start the Docker Daemon](https://docs.docker.com/config/daemon/start/) before running Sorting Hat with the command:
+
+```command
+sudo systemctl start docker
+```
+
+... or configure it to [always start at boot](https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot-with-systemd) with:
+
+```command
+sudo systemctl enable docker.service
+```
+
+2. You will also need a PostgreSQL connection and provide the credentials to the program via the `.env` file.
+
+<br><h3 align="center">3. Run</h3>
+
+1. With everything set-up, run [`run.sh`](run.sh) (On Linux or MacOS) or [`run.bat`](run.bat) (On Windows) to start the server.
 * Unix:
 ```command
 ./run.sh
@@ -53,8 +100,10 @@ With everything set-up, run [`run.sh`](run.sh) (On Linux or MacOS) or [`run.bat`
 
 * Windows:
 ```command
-run.bat
+./run.bat
 ```
+
+<br>
 
 ## License
 
