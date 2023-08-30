@@ -11,15 +11,15 @@
 <br>
 
 # Table Of Contents
-  * [Usage](#Usage)
-    * [No sign in student](#No-sign-in-student)
-    * [Student with result history enabled](#Student-with-result-history-enabled)
-    * [Teacher, Institution or Organization](#Teacher,-Institution-or-Organization)
-  * [Hosting](#Hosting)
-    * [1. Setup](#1.-Setup)
-    * [2. Environment](#2.-Environment)
-    * [3. Run](#3.-Run)
-  * [License](#License)
+  * [Usage](#usage)
+    * [No sign in student](#-no-sign-in-student)
+    * [Student with result history enabled](#-student-with-result-history-enabled)
+    * [Teacher, Institution or Organization](#-teacher,-Institution-or-Organization)
+  * [Hosting](#hosting)
+    * [1. Setup](#1-setup)
+    * [2. Environment](#2-environment)
+    * [3. Run](#3-run)
+  * [License](#license)
 
 
 <br>
