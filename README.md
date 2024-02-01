@@ -33,13 +33,13 @@ To take the test once and immediately see your results:
 
 * ### 🧑‍🎓 Student with result history enabled:
 To be able to keep track of your own history of results through time and compare results:
-1. Sign in as a student to the Sorting Hat user database.
+1. Sign in as a student to the Sorting Hat platform
 2. Take the quiz.
 3. See the result.
 
 * ### 👥 Teacher, Institution or Organization:
 To be able to apply the quiz for multiple members of your hierarchy and have access to their results:
-1. Sign in as a teacher to the Sorting Hat user database.
+1. Sign in as a teacher to the Sorting Hat platform.
 2. Share the invitation token with participants.
 3. See the results.
 
